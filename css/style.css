@@ -1,0 +1,694 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+.logo p {
+  font-style: normal;
+  font-size: 30px;
+}
+.header-principal {
+  background-color: rgb(172, 2, 2);
+  color: rgb(172, 2, 2);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header_nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+header ul li {
+  padding-left: 20px;
+  color: transparent;
+}
+.header_nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.main-home {
+  background-image: url(../img/seleccion-suplente.jpg);
+  background-size: cover;
+  color: aliceblue;
+  font-size: 1rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.home_buttom {
+  width: 100px;
+  padding: 15px 0;
+  background-color: #f9e79f;
+  border-radius: 30px;
+  margin: 40px;
+  align-items: flex-end;
+}
+.vermas {
+  font-size: 20px;
+  text-decoration: none;
+}
+.productos_top {
+  background-color: aliceblue;
+  color: #203586;
+  padding: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.productos_title {
+  font-size: 30px;
+}
+.productos_text {
+  font-style: italic;
+  padding: 20px;
+  font-size: 16px;
+}
+.productos_bot {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px;
+}
+.productos_bot_ropa:hover{
+  transform: scale(1.4);
+  background-color: antiquewhite;
+  border-radius: 15%;
+}
+.productos_bot img {
+  width: 250px;
+  height: 250px;
+}
+.nosotros-bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 230, 0.5561097256857855) 78%,
+    rgba(249, 157, 53, 1) 86%
+  );
+  color: grey;
+}
+.nosotros-bot img {
+  border-radius: 50%;
+}
+.nosotros1-title {
+  font-size: 30px;
+}
+.nosotros2 {
+  font-size: 16px;
+  padding: 50px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(249, 157, 53, 1) 78%,
+    rgba(115, 250, 102, 0.5860349127182045) 86%
+  );
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nosotros2-buttom {
+  background-image: url("../img/maraton\ copy.jpg");
+  text-decoration: none;
+  height: 300px;
+  width: auto;
+  padding-top: 90%;
+  padding-left: 70%;
+}
+.nosotros2-buttom a {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30%;
+}
+.nosotros3 {
+  background-color: #73fa66;
+  color: black;
+  font-size: 40px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros3 img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.nosotros3-title {
+  font-size: 30px;
+}
+.nosotros3-paragraph {
+  font-size: 16px;
+}
+.newsletter {
+  font-size: 20px;
+  padding-top: 20px;
+  background-color: darkblue;
+  color: aliceblue;
+}
+footer {
+  background-color: #323031;
+  font-size: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  justify-content: space-around;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+footer p {
+  color: white;
+}
+footer img {
+  background-color: white;
+}
+.main-productos {
+  background-color: #203586;
+  padding: 25px;
+  width: 100%;
+}
+.main-productos-text {
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+}
+.main-productos-img {
+  display: flex;
+  justify-content: space-around;
+}
+.main-productos-img img {
+  width: 200px;
+  height: 200px;
+}
+.products {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 20px;
+}
+.products-text {
+  text-decoration: none;
+  color: gray;
+  padding: 10px;
+}
+.products-text ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0px;
+  font-size: 20px;
+}
+.productos-link {
+  color: transparent;
+}
+.products-text ul li a {
+  text-decoration: none;
+  color: black;
+}
+.products-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.products-img1 {
+  display: flex;
+  flex-direction: row;
+}
+.products-img img {
+  width: 100px;
+  height: 100px;
+}
+@media (min-width: 992px) {
+  /* LOGO Y NAV */
+  .logo p {
+    font-size: 30px;
+  }
+  .header-principal {
+    background-color: rgb(172, 2, 2);
+    color: rgb(172, 2, 2);
+    position: fixed;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 20%;
+  }
+  .logo a {
+    color: white;
+    text-decoration: none;
+  }
+  .header_nav {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    justify-content: end;
+    gap: 0 30px;
+  }
+  .header_nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  header ul li {
+    width: 10%;
+    position: relative;
+  }
+  header a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /* MENU PRINCIPAL */
+  .main-home {
+    background-image: url(../img/seleccion-suplente.jpg);
+    background-color: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 40px;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: flex-start;
+    padding-top: 100px;
+  }
+  .home_buttom {
+    width: 150px;
+    padding: 15px 0;
+    background-color: #f9e79f;
+    border-radius: 30px;
+    margin: 40px;
+  }
+  .vermas {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .camisetas img {
+    width: 400px;
+    width: 400px;
+  }
+  .productos_top {
+    background-color: aliceblue;
+    color: #203586;
+    padding: 40px;
+  }
+  .productos_title {
+    font-size: 60px;
+    padding: 50px 50px 50px 50px;
+    margin: 50px;
+  }
+  .productos_text {
+    font-style: italic;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .productos_bot {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+  }
+  .productos_bot img {
+    width: 250px;
+    height: 250px;
+  }
+  /* SECCION NOSOTROS */
+  .nosotros-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+    font-size: 40px;
+    padding: 50px 150px 50px 50px;
+  }
+  .nosotros1-title {
+    font-size: 60px;
+  }
+  .nosotros-bot img {
+    border-radius: 50%;
+  }
+  .nosotros1-paragraph {
+    font-style: italic;
+  }
+  .nosotros2 {
+    font-size: 40px;
+    padding: 50px 150px 50px 50px;
+    background-color: #f99d35;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nosotros2 img {
+    border-radius: 50%;
+  }
+  .nosotros2-buttom {
+    background-image: url("../img/maraton\ copy.jpg");
+    background-color: no-repeat;
+    text-decoration: none;
+    height: 370px;
+    width: 900px;
+    text-align: end;
+    padding-top: 280px;
+    padding-left: 150px;
+    margin: 50px;
+  }
+  .nosotros2-buttom a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30%;
+  }
+  .nosotros3 {
+    background-color: #73fa66;
+    color: black;
+    font-size: 40px;
+    padding: 50px 150px 50px 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .nosotros3 img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+  }
+  .nosotros3-title {
+    font-size: 60px;
+  }
+  .nosotros3-paragraph {
+    font-size: 40px;
+  }
+  .newsletter {
+    font-size: 40px;
+    padding-top: 60px;
+    background-color: darkblue;
+    color: aliceblue;
+  }
+  /* Pie de pagina */
+  .correo {
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    margin: 100px;
+  }
+  .enviar {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+  }
+  footer {
+    background-color: #323031;
+    font-size: 23px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  footer p {
+    color: white;
+  }
+  footer img {
+    background-color: white;
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding: 170px 100px 150px 100px;
+    width: 100%;
+  }
+  .nosotros-left {
+    background-color: antiquewhite;
+    display: flex;
+    font-size: 20px;
+  }
+  .nosotros-left-text h2 {
+    color: gray;
+  }
+  .nosotros-left-text p {
+    color: gray;
+  }
+  .services-right {
+    font-size: 30px;
+    color: #203586;
+    text-decoration-line: underline;
+  }
+  .services-right ul {
+    color: #f9e79f;
+  }
+  .services-right ul a {
+    color: #f9e79f;
+    text-decoration: none;
+  }
+  .vegano {
+    display: flex;
+    background-color: #e59866;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .algodon-organico {
+    text-align: center;
+    position: relative;
+    display: flex;
+    background-color: aliceblue;
+    font-size: 30px;
+  }
+  .tinte-sostenible {
+    text-align: center;
+    position: relative;
+    display: flex;
+    background-color: purple;
+    font-size: 30px;
+  }
+  .contenido-reciclado {
+    text-align: center;
+    position: relative;
+    display: flex;
+    background-color: #09a2b8;
+    font-size: 30px;
+  }
+  .main-productos {
+    background-color: #203586;
+    padding: 170px 100px 100px 100px;
+    width: 100%;
+  }
+  .main-productos-text {
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+  }
+  .main-productos-img {
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-productos-img img {
+    width: 300px;
+    height: 300px;
+  }
+  .products {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 20px;
+  }
+  .products-text {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    padding: 30px;
+  }
+  .products-text ul {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 30px;
+  }
+  .products-text ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .products-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .products-img1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .products-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .main-trabaja {
+    padding: 270px 100px 100px 30px;
+    font-size: 20px;
+    display: flex;
+    background-color: beige;
+  }
+  .open-positions {
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 140px;
+    font-size: 40px;
+    justify-content: space-between;
+  }
+  .ofertaslaborales {
+    font-size: 30px;
+    color: white;
+    background-color: #203586;
+  }
+  .desarrollador-web {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .cajero {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .repositor {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .gerente-de-local {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .disenador-web {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .gerente-de-negocios {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .community-manager {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .analista-marketing-digital {
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .oferta-buttom {
+    padding: 10px;
+    background-color: #f9e79f;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+  }
+  .oferta-buttom a {
+    text-decoration: none;
+  }
+  .beneficios-text {
+    background-color: #203586;
+    font-size: 30px;
+    color: white;
+  }
+  .beneficios-all {
+    background-color: lightcyan;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .ambiente-laboral {
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+  .oportunidad-de-crecimiento {
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+  .premios {
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+  .horarios-flexibles {
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+  .descuentos {
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+  .contact-main {
+    padding: 300px 100px 100px 100px;
+    font-size: 30px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nombre {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .telefono {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .correoe {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .contact-right {
+    padding: 20px;
+  }
+}
