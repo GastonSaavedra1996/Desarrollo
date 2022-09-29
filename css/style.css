@@ -330,13 +330,13 @@ footer img {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: auto;
-    align-items: flex-start;
-    padding-top: 100px;
+    grid-template-rows: 70% 30%;
+    align-items: flex-end;
+    padding-top: 200px;
   }
   .home_buttom {
+    font-size: 30px;
     width: 150px;
-    padding: 15px 0;
     background-color: #f9e79f;
     border-radius: 30px;
     margin: 40px;
@@ -348,6 +348,11 @@ footer img {
   .camisetas img {
     width: 400px;
     width: 400px;
+  }
+  .productos_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .productos_top {
     background-color: aliceblue;
@@ -366,14 +371,10 @@ footer img {
   }
   .productos_bot {
     font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 40px;
   }
   .productos_bot img {
-    width: 250px;
-    height: 250px;
+    width: 3000px;
+    height: 300px;
   }
   /* SECCION NOSOTROS */
   .nosotros-bot {
