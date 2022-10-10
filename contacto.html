@@ -6,51 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SportMarket</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./img/asd.ico">
+    <link rel="shortcut icon" href="./img/asd.ico" />
   </head>
   <body>
     <header class="header-principal">
-      <div class="logo">
-        <a href="index.html"><p>Logo</p></a>
-      </div>
-      <div>
-      <nav class="nav">
-        <ul class="header_nav">
-          <li>
-            <a href="index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a href="./productos.html">Productos</a>
-          </li>
-          <li>
-            <a href="./trabaja-con-nosotros.html">Trabaja con nosotros</a>
-          </li>
-          <li>
-            <a href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./img/asd.jpg" alt="logo" width="150px" height="130px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mas informacion
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trabaja-con-nosotros.html"
+                      >Trabaja con nosotros</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      </div>
     </header>
-          <!-- Menu principal -->
+    <!-- Menu principal -->
     <main class="contact-main">
       <div class="contact-text">
-        <h2 class="contact-text-title">
-          Tenes alguna duda? Contactanos!
-        </h2>
+        <h2 class="contact-text-title">Tenes alguna duda? Contactanos!</h2>
         <form action="">
           <p>Nombre y apellido</p>
-          <input type="text" name="name" placeholder="Nombre y apellido" class="nombre"/>
+          <input
+            type="text"
+            name="name"
+            placeholder="Nombre y apellido"
+            class="nombre"
+          />
           <p>Numero telefonico</p>
-          <input type="number" name="telefono" placeholder="Numero telefonico" class="telefono">
+          <input
+            type="number"
+            name="telefono"
+            placeholder="Numero telefonico"
+            class="telefono"
+          />
           <p>Correo electronico</p>
-          <input type="email" name="email" placeholder="Example@gmail.com" class="correoe"/>
+          <input
+            type="email"
+            name="email"
+            placeholder="Example@gmail.com"
+            class="correoe"
+          />
           <p>Mensaje</p>
           <textarea name="message" cols="50" rows="15"></textarea>
-          <input type="submit" value="Enviar" class="enviar"/>
+          <input type="submit" value="Enviar" class="enviar" />
         </form>
       </div>
       <div class="contact-right">
@@ -64,18 +110,36 @@
           <p>Correo electronico: sportmarket@gmail.com</p>
         </div>
         <div>
-          <img src="./img/Map Section.png" alt="mapa" />
+          <img src="./img/Map Section.png" alt="mapa" class="mapaa" />
         </div>
       </div>
     </main>
-        <!-- Fin menu principal -->
+    <!-- Fin menu principal -->
+
     <!-- Inicio newsletter -->
-    <div class="newsletter">
-      <h4>Registrate y no te pierdas de todas las novedades que tenemos para vos</h4>
-            <input type="email" name="email" placeholder="example@outlook.com" />
-            <input type="submit" value="send" />
-          </div>
-          <!-- Fin newsletter -->
+    <div class="newlester">
+      <div class="newlester-title">
+        <h2>No te pierdas las novedades que tenemos para vos</h2>
+      </div>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Example@gmail.com"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="button-addon2"
+        >
+          Enviar
+        </button>
+      </div>
+    </div>
+
+    <!-- Fin newsletter -->
     <!-- Pie de pagina -->
     <footer>
       <div class="footer-top">
@@ -115,7 +179,7 @@
       </div>
       <div class="footer-bot">
         <nav class="logo">
-          <a href="index.html"><p>Logo</p></a>
+          <a href="index.html"><img src="./img/asd.jpg"></a>
         </nav>
         <p>©2021 SportMarket</p>
         <img src="./img/Social.png" alt="redes sociales" />

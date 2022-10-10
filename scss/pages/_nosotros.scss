@@ -1,0 +1,142 @@
+.nav-link {
+  color: white;
+  font-size: 30px;
+}
+.navbar-nav .nav-link.active {
+  color: white;
+}
+footer {
+  background-color: #323031;
+  font-size: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  & ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  & p {
+    color: white;
+  }
+  & img {
+    background-color: white;
+  }
+}
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .nosotros img {
+    width: 275px;
+    height: 275px;
+  }
+  .nosotros-left {
+    background-color: antiquewhite;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+  }
+  .nosotros-left-text h2 {
+    color: gray;
+  }
+  .nosotros-left-text p {
+    color: gray;
+  }
+  .services-right {
+    font-size: 20px;
+    color: #203586;
+    text-decoration-line: underline;
+  }
+  .services-right ul {
+    color: #f9e79f;
+  }
+  .services-right ul a {
+    color: #f9e79f;
+    text-decoration: none;
+  }
+  .vegano {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #e59866;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .algodon-organico {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: aliceblue;
+    font-size: 30px;
+    height: auto;
+  }
+  .tinte-sostenible {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: purple;
+    font-size: 30px;
+  }
+  .contenido-reciclado {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #09a2b8;
+    font-size: 30px;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: 992px) {
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        background-color: lightblue;
+        width: 100%;
+        & img {
+          height: auto;
+          width: auto;
+        }
+      }
+      .nosotros-left {
+        background-color: antiquewhite;
+        display: flex;
+        font-size: 20px;
+        flex-direction: row-reverse;
+        &-text h2 {
+          color: gray;
+        }
+        &-text p {
+          color: gray;
+        }
+      }
+      .services-right {
+        font-size: 30px;
+        color: #203586;
+        text-decoration-line: underline;
+        & ul {
+          color: #f9e79f;
+        }
+        & ul a {
+          color: #f9e79f;
+          text-decoration: none;
+        }
+      }
+    }

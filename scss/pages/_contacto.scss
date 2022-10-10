@@ -1,0 +1,91 @@
+.nav-link {
+  color: white;
+  font-size: 30px;
+}
+.navbar-nav .nav-link.active {
+  color: white;
+}
+footer {
+  background-color: #323031;
+  font-size: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  & ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  & p {
+    color: white;
+  }
+  & img {
+    background-color: white;
+  }
+}
+.contact-main {
+  padding-top: 50px;
+  font-size: 15px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nombre {
+  padding: 10px;
+  font-size: 10px;
+}
+.telefono {
+  padding: 10px;
+  font-size: 10px;
+}
+.correoe {
+  padding: 10px;
+  font-size: 10px;
+}
+.contact-right {
+  padding: 20px;
+}
+.mapaa {
+  width: 100%;
+}
+.contact-text textarea {
+  width: 300px;
+}
+@media (min-width: 992px) {
+  .contact-main {
+    font-size: 30px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nombre {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .telefono {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .correoe {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .contact-right {
+    padding: 20px;
+  }
+  .contact-text textarea {
+    width: 500px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,26 @@
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+@import"./pages/index";
+@import"./pages/productos";
+@import"./pages/trabaja-con-nosotros";
+@import"./pages/nosotros";
+@import"./pages/contacto";
+
+.newlester {
+  background-color: #203586;
+}
+.newlester h2 {
+  color: aliceblue;
+}
+.input-group {
+  font-size: 40px;
+  padding: 60px;
+}
+.btn btn-outline-secondary {
+  background-color: white;
+  color: white;
+}
