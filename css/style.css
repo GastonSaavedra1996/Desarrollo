@@ -8489,8 +8489,7 @@ footer {
   .productos_ {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: auto; }
+    width: 100vw; }
     .productos__top {
       background-color: aliceblue;
       color: #203586; }
@@ -8561,59 +8560,7 @@ footer {
   .enviar {
     width: 100px;
     height: 40px;
-    font-size: 30px; }
-  footer {
-    background-color: #323031;
-    font-size: 23px;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-    footer ul {
-      display: flex;
-      flex-direction: row;
-      text-decoration: none;
-      list-style: none;
-      padding: 10px;
-      justify-content: space-around; }
-    footer a {
-      text-decoration: none;
-      color: white;
-      padding: 5px; }
-    footer p {
-      color: white; }
-    footer img {
-      background-color: white; } }
-
-.nav-link {
-  color: white;
-  font-size: 30px; }
-
-.navbar-nav .nav-link.active {
-  color: white; }
-
-footer {
-  background-color: #323031;
-  font-size: 16px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-  footer ul {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-    padding: 5px;
-    justify-content: space-around; }
-  footer a {
-    text-decoration: none;
-    color: white;
-    padding: 5px; }
-  footer p {
-    color: white; }
-  footer img {
-    background-color: white; }
+    font-size: 30px; } }
 
 .main-productos {
   background-color: #203586;
@@ -8711,36 +8658,6 @@ footer {
   .products-img img {
     width: 200px;
     height: 200px; } }
-
-.nav-link {
-  color: white;
-  font-size: 30px; }
-
-.navbar-nav .nav-link.active {
-  color: white; }
-
-footer {
-  background-color: #323031;
-  font-size: 16px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-  footer ul {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-    padding: 5px;
-    justify-content: space-around; }
-  footer a {
-    text-decoration: none;
-    color: white;
-    padding: 5px; }
-  footer p {
-    color: white; }
-  footer img {
-    background-color: white; }
 
 .main-trabaja {
   padding-top: 50px;
@@ -8864,36 +8781,6 @@ footer {
     border: 1px solid black;
     margin: 10px 0; } }
 
-.nav-link {
-  color: white;
-  font-size: 30px; }
-
-.navbar-nav .nav-link.active {
-  color: white; }
-
-footer {
-  background-color: #323031;
-  font-size: 16px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-  footer ul {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-    padding: 5px;
-    justify-content: space-around; }
-  footer a {
-    text-decoration: none;
-    color: white;
-    padding: 5px; }
-  footer p {
-    color: white; }
-  footer img {
-    background-color: white; }
-
 .nosotros {
   display: flex;
   flex-direction: column;
@@ -8994,36 +8881,6 @@ footer {
       color: #f9e79f;
       text-decoration: none; } }
 
-.nav-link {
-  color: white;
-  font-size: 30px; }
-
-.navbar-nav .nav-link.active {
-  color: white; }
-
-footer {
-  background-color: #323031;
-  font-size: 16px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-  footer ul {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-    padding: 5px;
-    justify-content: space-around; }
-  footer a {
-    text-decoration: none;
-    color: white;
-    padding: 5px; }
-  footer p {
-    color: white; }
-  footer img {
-    background-color: white; }
-
 .contact-main {
   padding-top: 50px;
   font-size: 15px;
@@ -9075,6 +8932,29 @@ footer {
     width: 500px;
     height: 300px; } }
 
+footer {
+  background-color: #323031;
+  font-size: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    justify-content: space-around; }
+  footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px; }
+  footer p {
+    color: white; }
+  footer img {
+    background-color: white; }
+
 .newlester {
   background-color: #203586; }
 
@@ -9087,4 +8967,35 @@ footer {
 
 .btn btn-outline-secondary {
   background-color: white;
+  color: white; }
+
+@media (min-width: 992px) {
+  footer {
+    background-color: #323031;
+    font-size: 23px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-around; }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 5px; }
+  p {
+    color: white; }
+  img {
+    background-color: white; } }
+
+.nav-link {
+  color: white;
+  font-size: 30px; }
+
+.navbar-nav .nav-link.active {
   color: white; }

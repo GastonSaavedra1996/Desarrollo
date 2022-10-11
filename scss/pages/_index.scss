@@ -123,8 +123,7 @@ footer {
   .productos_ {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: auto;
+    width: 100vw;
     &_top {
       background-color: aliceblue;
       color: #203586;
@@ -216,32 +215,5 @@ footer {
     width: 100px;
     height: 40px;
     font-size: 30px;
-  }
-  footer {
-    background-color: #323031;
-    font-size: 23px;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    & ul {
-      display: flex;
-      flex-direction: row;
-      text-decoration: none;
-      list-style: none;
-      padding: 10px;
-      justify-content: space-around;
-    }
-    & a {
-      text-decoration: none;
-      color: white;
-      padding: 5px;
-    }
-    & p {
-      color: white;
-    }
-    & img {
-      background-color: white;
-    }
   }
 }

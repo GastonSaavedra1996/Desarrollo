@@ -9,18 +9,5 @@
 @import"./pages/trabaja-con-nosotros";
 @import"./pages/nosotros";
 @import"./pages/contacto";
-
-.newlester {
-  background-color: #203586;
-}
-.newlester h2 {
-  color: aliceblue;
-}
-.input-group {
-  font-size: 40px;
-  padding: 60px;
-}
-.btn btn-outline-secondary {
-  background-color: white;
-  color: white;
-}
+@import"./components/footer";
+@import"./components/navbar";
