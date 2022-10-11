@@ -8829,7 +8829,7 @@ footer {
   position: relative;
   display: flex;
   flex-direction: column-reverse;
-  background-color: aliceblue;
+  background-color: #010407;
   font-size: 30px;
   height: auto; }
 
@@ -8992,6 +8992,10 @@ footer {
     color: white; }
   img {
     background-color: white; } }
+
+.footer-links {
+  display: flex;
+  flex-direction: row; }
 
 .nav-link {
   color: white;
