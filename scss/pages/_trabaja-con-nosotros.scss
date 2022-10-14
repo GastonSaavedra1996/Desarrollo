@@ -17,10 +17,9 @@
 .open-positions {
   background-color: aliceblue;
   color: black;
-  font-size: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 20px;
 }
 .ofertaslaborales {
@@ -31,19 +30,13 @@
   color: white;
   background-color: #203586;
 }
-.trabajoss {
-  margin: 0%;
-  font-size: 15px;
-  border: 1px solid black;
-}
 .oferta-buttom {
   padding: 10px;
   background-color: #f9e79f;
   font-size: 10px;
   width: 80px;
   height: 50px;
-  margin-top: 40%;
-  margin-left: 30%;
+  border-radius: 10%;
 }
 .oferta-buttom a {
   text-decoration: none;
@@ -55,48 +48,46 @@
 }
 .beneficios-all {
   color: rgb(46, 46, 134);
-  background-color: lightcyan;
-  font-size: 15px;
+  background-color: aliceblue;
+  font-size: 10px;
   padding: 50px 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+display: flex;
+flex-direction: column;
 }
 .beneficioss {
   border: 1px solid black;
   margin: 10px 0;
+  background-color: white;
 }
 @media (min-width: 992px) {
   .main-trabaja {
-    padding: 270px 100px 100px 30px;
-    font-size: 40px;
+    font-size: 16px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: beige;
     align-items: flex-start;
-    & img {
-      width: 500px;
-      height: 500px;
-    }
     & h2 {
       color: #203586;
     }
   }
+  .img-company{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding-bottom: 20px;
+  }
   .open-positions {
     background-color: aliceblue;
-    color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
-    width: 100%;
-    align-items: center;
-    align-content: center;
     padding: 20px;
   }
   .ofertaslaborales {
-    font-size: 30px;
     color: white;
     background-color: #203586;
+    display: flex;
+    flex-direction: column;
   }
   .trabajoss {
     border: 1px solid black;
@@ -106,9 +97,9 @@
   .oferta-buttom {
     padding: 10px;
     background-color: #f9e79f;
-    font-size: 30px;
-    width: 200px;
-    height: 100px;
+    font-size: 15px;
+    width: 100px;
+    height: 60px;
   }
   .oferta-buttom a {
     text-decoration: none;
@@ -120,7 +111,7 @@
   }
   .beneficios-all {
     color: rgb(46, 46, 134);
-    background-color: lightcyan;
+    background-color: aliceblue;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -131,5 +122,6 @@
   .beneficioss {
     border: 1px solid black;
     margin: 10px 0;
+    background-color: white;
   }
 }
