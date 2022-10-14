@@ -1,71 +1,14 @@
-footer {
-  background-color: #323031;
-  font-size: 16px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  & ul {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-    padding: 5px;
-    justify-content: space-around;
-  }
-  & a {
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-  }
-  & p {
-    color: white;
-  }
-  & img {
-    background-color: white;
-  }
-}
 .newlester {
-    background-color: #203586;
-  }
-  .newlester h2 {
-    color: aliceblue;
-  }
-  .input-group {
-    font-size: 40px;
-    padding: 60px;
-  }
-  .btn btn-outline-secondary {
-    background-color: white;
-    color: white;
-  }
-@media (min-width: 992px) {
-  footer {
-    background-color: #323031;
-    font-size: 23px;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  & ul {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
-    justify-content: space-around;
-  }
-  & a {
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-  }
-  & img {
-    background-color: white;
-  }
+  background-color: #203586;
 }
-.footer-links{
-display: flex;
-flex-direction: row;
+.newlester h2 {
+  color: aliceblue;
+}
+.input-group {
+  font-size: 40px;
+  padding: 60px;
+}
+.btn btn-outline-secondary {
+  background-color: white;
+  color: white;
 }
