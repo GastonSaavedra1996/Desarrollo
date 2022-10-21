@@ -8576,6 +8576,8 @@ textarea.form-control-lg {
   .products-img img {
     width: 100px;
     height: 100px; }
+  .products .messi-arg {
+    display: none !important; }
 
 @media (min-width: 992px) {
   .products {
@@ -8823,24 +8825,50 @@ textarea.form-control-lg {
       text-decoration: none; } }
 
 .contact-main {
-  padding-top: 50px;
   font-size: 15px;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(149deg, #020024 0%, #090979 68%, #00d4ff 100%);
+  color: white; }
+
+.formulario {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column; }
+
+.enviar {
+  background-color: #090979;
+  border: 2px solid #00d4ff;
+  border-radius: 30%;
+  color: white;
+  padding: 2px;
+  width: 50px; }
+
+.enviar:hover {
+  background-color: #00d4ff; }
+
+.contact-text-title {
+  text-decoration-line: underline;
+  text-decoration-color: #00d4ff;
+  margin: 20px 0px; }
 
 .nombre {
   padding: 10px;
-  font-size: 10px; }
+  font-size: 10px;
+  width: 300px; }
 
 .telefono {
   padding: 10px;
-  font-size: 10px; }
+  font-size: 10px;
+  width: 300px; }
 
 .correoe {
   padding: 10px;
-  font-size: 10px; }
+  font-size: 10px;
+  width: 300px; }
 
 .contact-right {
   padding: 20px; }
@@ -8856,32 +8884,24 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
   .contact-main {
-    padding-top: 0%;
-    font-size: 20px;
+    font-size: 30px;
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-  .nombre {
-    padding: 20px;
-    font-size: 20px; }
-  .telefono {
-    padding: 20px;
-    font-size: 20px; }
-  .correoe {
-    padding: 20px;
-    font-size: 20px; }
+  .formulario {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px; }
   .contact-right {
     padding: 20px; }
-  .contact-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 30px;
-    padding-top: 0%; }
   .contact-text textarea {
-    width: 300px;
-    height: 200px; } }
+    width: 500px;
+    height: 200px; }
+  .contact-text-title {
+    margin: 40px 0px; }
+  .enviar {
+    width: 100px; } }
 
 .newlester {
   background-color: #203586; }
