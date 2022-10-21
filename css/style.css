@@ -8542,10 +8542,18 @@ textarea.form-control-lg {
 
 .messi-text {
   font-size: 8px;
-  padding-top: 70%;
-  padding-left: 0%;
+  padding-top: 90%;
+  padding-left: 5%;
   width: 50vh;
   height: 100vh; }
+
+.messi-sup {
+  width: 100%;
+  height: 100vh;
+  display: grid; }
+
+.messi--arg {
+  display: none; }
 
 .products {
   background-color: aliceblue;
@@ -8611,7 +8619,18 @@ textarea.form-control-lg {
     padding: 15px; }
   .products-img img {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+  .messi-text {
+    font-size: 8px;
+    padding-top: 90%;
+    padding-left: 0%;
+    width: 100vh; }
+  .messi-sup {
+    width: 50%;
+    height: auto; }
+  .messi--arg {
+    width: 50%;
+    display: inline; } }
 
 .main-trabaja {
   padding-top: 50px;
