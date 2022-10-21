@@ -8541,7 +8541,11 @@ textarea.form-control-lg {
     font-size: 30px; } }
 
 .messi-text {
-  font-size: 8px; }
+  font-size: 8px;
+  padding-top: 70%;
+  padding-left: 0%;
+  width: 50vh;
+  height: 100vh; }
 
 .products {
   background-color: aliceblue;
