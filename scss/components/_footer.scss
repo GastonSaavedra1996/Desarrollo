@@ -1,12 +1,14 @@
 .newlester {
   background-color: #203586;
+padding: 0;
 }
 .newlester h2 {
   color: aliceblue;
+  font-size: 12px;
+  padding: 10px;
 }
 .input-group {
-  font-size: 40px;
-  padding: 60px;
+  padding: 10px;
 }
 .btn btn-outline-secondary {
   background-color: white;
@@ -16,6 +18,7 @@
   display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
+font-size: 12px;
 }
 .caja1{
 grid-column: 1/2;
@@ -43,4 +46,13 @@ grid-column: 1/2;
 }
 .caja5{
   justify-content: space-between;
+}
+.newlester {
+  background-color: #203586;
+padding: 0;
+}
+.newlester h2 {
+  color: aliceblue;
+  font-size: 30px;
+  padding: 10px;
 }
