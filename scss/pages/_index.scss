@@ -38,10 +38,6 @@
 .carousel-control-next-icon {
   background-color: black;
 }
-.carousel-item img {
-  width: 400px;
-  height: 400px;
-}
 .nosotros-bot {
   display: flex;
   flex-direction: column;
@@ -69,11 +65,10 @@
     rgba(249, 157, 53, 1) 78%,
     rgba(115, 250, 102, 0.5860349127182045) 86%
   );
-  color: #203586;
+color: white;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  padding-left: 30px;
 }
 .nosotros3 {
   background-color: #73fa66;
@@ -89,8 +84,8 @@
     font-size: 16px;
   }
   & img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media (min-width: 992px) {
@@ -140,7 +135,7 @@
     font-style: italic;
   }
   .nosotros2 {
-    font-size: 40px;
+    font-size: 20px;
     padding: 50px 150px 50px 50px;
     background-color: #f99d35;
     color: aliceblue;

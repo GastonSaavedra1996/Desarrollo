@@ -8419,10 +8419,6 @@ textarea.form-control-lg {
 .carousel-control-next-icon {
   background-color: black; }
 
-.carousel-item img {
-  width: 400px;
-  height: 400px; }
-
 .nosotros-bot {
   display: flex;
   flex-direction: column;
@@ -8441,11 +8437,10 @@ textarea.form-control-lg {
 
 .nosotros2 {
   background-image: linear-gradient(180deg, #f99d35 78%, rgba(115, 250, 102, 0.586035) 86%);
-  color: #203586;
+  color: white;
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
-  padding-left: 30px; }
+  align-items: center; }
 
 .nosotros3 {
   background-color: #73fa66;
@@ -8459,8 +8454,8 @@ textarea.form-control-lg {
   .nosotros3-paragraph {
     font-size: 16px; }
   .nosotros3 img {
-    width: 300px;
-    height: 300px; }
+    width: 250px;
+    height: 250px; }
 
 @media (min-width: 992px) {
   /* MENU PRINCIPAL */
@@ -8499,7 +8494,7 @@ textarea.form-control-lg {
   .nosotros1-paragraph {
     font-style: italic; }
   .nosotros2 {
-    font-size: 40px;
+    font-size: 20px;
     padding: 50px 150px 50px 50px;
     background-color: #f99d35;
     color: aliceblue;
@@ -8540,54 +8535,135 @@ textarea.form-control-lg {
     height: 40px;
     font-size: 30px; } }
 
-.messi-text {
-  font-size: 8px;
-  padding-top: 90%;
-  padding-left: 5%;
-  width: 50vh;
-  height: 100vh; }
+.menu-productos {
+  background-color: #203586;
+  display: flex;
+  justify-content: center; }
 
-.messi-sup {
-  width: 100%;
-  height: 100vh;
-  display: grid; }
+.menu-productos ul {
+  list-style: none; }
 
-.messi--arg {
-  display: none; }
+.menu-productos-nav {
+  display: flex;
+  padding-left: 0%; }
 
-.products {
-  background-color: aliceblue;
+.menu-productos-nav ul {
+  list-style: none;
+  display: flex;
+  align-content: space-around; }
+
+.menu-productos-nav > li {
+  display: flex;
+  align-content: space-around;
+  text-align: center; }
+
+.menu-productos-nav > li > a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white; }
+
+.menu-productos-nav li a:hover {
+  color: gold; }
+
+.productos_botones {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; }
+
+.productos_main {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px; }
-  .products-text {
-    text-decoration: none;
-    color: #203586;
-    padding: 10px; }
-  .products-text ul {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
-    padding: 0px;
-    font-size: 20px;
-    color: transparent; }
-  .products-text ul li a {
-    text-decoration: none;
-    color: black; }
-  .products-img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px; }
-  .products-img1 {
-    display: flex;
-    flex-direction: row; }
-  .products-img img {
-    width: 100px;
-    height: 100px; }
+  justify-content: center; }
+
+.productos_main label {
+  margin-right: 6px; }
+
+#remeras:checked ~ #imagenes .camperas,
+#remeras:checked ~ #imagenes .zapatillas,
+#remeras:checked ~ #imagenes .shorts,
+#remeras:checked ~ #imagenes .camisetas,
+#remeras:checked ~ #imagenes .ojotas,
+#remeras:checked ~ #imagenes .botines,
+#remeras:checked ~ #imagenes .buzo {
+  display: none; }
+
+#zapatillas:checked ~ #imagenes .camperas,
+#zapatillas:checked ~ #imagenes .remeras,
+#zapatillas:checked ~ #imagenes .shorts,
+#zapatillas:checked ~ #imagenes .camisetas,
+#zapatillas:checked ~ #imagenes .ojotas,
+#zapatillas:checked ~ #imagenes .botines,
+#zapatillas:checked ~ #imagenes .buzo {
+  display: none; }
+
+#camperas:checked ~ #imagenes .zapatillas,
+#camperas:checked ~ #imagenes .remeras,
+#camperas:checked ~ #imagenes .shorts,
+#camperas:checked ~ #imagenes .camisetas,
+#camperas:checked ~ #imagenes .ojotas,
+#camperas:checked ~ #imagenes .botines,
+#camperas:checked ~ #imagenes .buzo {
+  display: none; }
+
+#shorts:checked ~ #imagenes .zapatillas,
+#shorts:checked ~ #imagenes .remeras,
+#shorts:checked ~ #imagenes .camperas,
+#shorts:checked ~ #imagenes .camisetas,
+#shorts:checked ~ #imagenes .ojotas,
+#shorts:checked ~ #imagenes .botines,
+#shorts:checked ~ #imagenes .buzo {
+  display: none; }
+
+#camisetas:checked ~ #imagenes .zapatillas,
+#camisetas:checked ~ #imagenes .remeras,
+#camisetas:checked ~ #imagenes .shorts,
+#camisetas:checked ~ #imagenes .camperas,
+#camisetas:checked ~ #imagenes .ojotas,
+#camisetas:checked ~ #imagenes .botines,
+#camisetas:checked ~ #imagenes .buzo {
+  display: none; }
+
+#ojotas:checked ~ #imagenes .zapatillas,
+#ojotas:checked ~ #imagenes .remeras,
+#ojotas:checked ~ #imagenes .shorts,
+#ojotas:checked ~ #imagenes .camisetas,
+#ojotas:checked ~ #imagenes .camperas,
+#ojotas:checked ~ #imagenes .botines,
+#ojotas:checked ~ #imagenes .buzo {
+  display: none; }
+
+#botines:checked ~ #imagenes .zapatillas,
+#botines:checked ~ #imagenes .remeras,
+#botines:checked ~ #imagenes .shorts,
+#botines:checked ~ #imagenes .camisetas,
+#botines:checked ~ #imagenes .ojotas,
+#botines:checked ~ #imagenes .camperas,
+#botines:checked ~ #imagenes .buzo {
+  display: none; }
+
+#buzo:checked ~ #imagenes .zapatillas,
+#buzo:checked ~ #imagenes .remeras,
+#buzo:checked ~ #imagenes .shorts,
+#buzo:checked ~ #imagenes .camisetas,
+#buzo:checked ~ #imagenes .ojotas,
+#buzo:checked ~ #imagenes .camperas,
+#buzo:checked ~ #imagenes .botines {
+  display: none; }
+
+.contenedor-productos {
+  display: flex;
+  flex-direction: column; }
+
+.contenedor-compra {
+  border: #333333 solid 2px;
+  margin: 4px 0;
+  width: auto;
+  text-align: center; }
+
+.contenedor-compra img {
+  width: 250px;
+  height: 250px; }
 
 @media (min-width: 992px) {
   .products {
@@ -8630,7 +8706,9 @@ textarea.form-control-lg {
     height: auto; }
   .messi--arg {
     width: 50%;
-    display: inline; } }
+    display: inline; }
+  .main-productos {
+    height: 100vh; } }
 
 .main-trabaja {
   padding-top: 50px;
@@ -8907,14 +8985,16 @@ textarea.form-control-lg {
     height: 200px; } }
 
 .newlester {
-  background-color: #203586; }
+  background-color: #203586;
+  padding: 0; }
 
 .newlester h2, .newlester .h2 {
-  color: aliceblue; }
+  color: aliceblue;
+  font-size: 12px;
+  padding: 10px; }
 
 .input-group {
-  font-size: 40px;
-  padding: 60px; }
+  padding: 10px; }
 
 .btn btn-outline-secondary {
   background-color: white;
@@ -8923,7 +9003,8 @@ textarea.form-control-lg {
 .footer-mobile {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto; }
+  grid-template-rows: auto;
+  font-size: 12px; }
 
 .caja1 {
   grid-column: 1/2; }
@@ -8950,6 +9031,15 @@ textarea.form-control-lg {
 
 .caja5 {
   justify-content: space-between; }
+
+.newlester {
+  background-color: #203586;
+  padding: 0; }
+
+.newlester h2, .newlester .h2 {
+  color: aliceblue;
+  font-size: 30px;
+  padding: 10px; }
 
 .nav-link {
   color: white;

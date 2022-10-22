@@ -67,115 +67,336 @@
       </nav>
     </header>
 <!-- Menu principal -->
-<main class="main-productos d-flex">
-<div class="card text-bg-dark messi-sup">
-  <img
-    src="./img/messi-suplente.jpg"
-    class="card-img"
-    alt="messi-suplente"
-  />
-  <div class="card-img-overlay messi-text">
-    <h5 class="card-title">Mira todas las novedades que tenemos para vos</h5>
-    <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in
-      to additional content. This content is a little bit longer.
-    </p>
-  </div>
+<div class="menu-productos">
+  <ul class="menu-productos-nav">
+    <li>
+      <a href="productos.html">Inicio</a>
+    </li>
+    <li>
+      <a href="./hombre.html">Hombre</a>
+    </li>
+    <li>
+      <a href="./mujer.html">Mujer</a>
+    </li>
+    <li>
+      <a href="./nino.html">Niño</a>
+    </li>
+  </ul>
 </div>
-  <div class="card text-bg-dark w-50 messi--arg">
-    <img
-      src="./img/messi.jpg"
-      class="card-img"
-      alt="messi"
-    />
-    <div class="card-img-overlay">
+  <div class="productos_main">
+    <input class="boton_productos" type="radio" name="filtro" id="todo" checked />
+    <label for="todo">Todo</label>
+    <input class="boton_productos" type="radio" name="filtro" id="zapatillas" />
+    <label for="zapatillas">Zapatillas</label>
+    <input class="boton_productos" type="radio" name="filtro" id="camisetas" />
+    <label for="camisetas">Camisetas</label>
+    <input class="boton_productos" type="radio" name="filtro" id="remeras" />
+    <label for="remeras">Remeras</label>
+    <input class="boton_productos" type="radio" name="filtro" id="shorts" />
+    <label for="shorts">Shorts</label>
+    <input class="boton_productos" type="radio" name="filtro" id="camperas" />
+    <label for="camperas">Camperas</label>
+    <input class="boton_productos" type="radio" name="filtro" id="botines" />
+    <label for="botines">Botines</label>
+    <input class="boton_productos" type="radio" name="filtro" id="ojotas" />
+    <label for="ojotas">Ojotas</label>
+    <input class="boton_productos" type="radio" name="filtro" id="buzo" />
+    <label for="buzo">Buzos</label>
+  <div id="imagenes" class="contenedor-productos">
+    <div class="contenedor-compra remeras adidas hombre">
+      <img src="./img2/remera-adidas-negra.jfif" alt="remera-adidas" />
+      <h4>Remera adidas negra $$$$</h4>
+      <button class="btn btn-primary btn-compra" type="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra remeras converse mujer">
+      <img src="./img2/remera-converse-m2.jfif" alt="remera-converse-m2" />
+      <h4>Remera Converse $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra remeras converse mujer">
+      <img src="./img2/remera-converse-m.jfif" alt="remera-converse-m" />
+      <h4>Remera Converse Mujer $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra remeras converse hombre">
+      <img src="img2/remera-converse.jfif" alt="remera-converse" />
+      <h4>Remera Converse Hombre $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra remeras nike hombre">
+      <img src="./img2/remera-nike-h.jpg" alt="remera-nike-h" />
+      <h4>Remera Nike Hombre $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas mujer fila">
+      <img
+        src="./img2/zapatilla-fila-mujer.jfif"
+        alt="zapatilla-fila-mujer"
+      />
+      <h4>Zapatillas Fila Mujer $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas hombre adidas">
+      <img
+        src="./img2/zapatilla-adidas-court.jfif"
+        alt="zapatilla-adidas-court"
+      />
+      <h4>Zapatillas Adidas Court $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas mujer nike">
+      <img
+        src="./img2/zapatilla-airmax-excee-m.jfif"
+        alt="zapatilla-airmax-excee-m"
+      />
+      <h4>Zaátillas Nike Airmax Excee $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas nike mujer">
+      <img
+        src="./img2/zapatilla-airmax-sc-m.jfif"
+        alt="zapatilla-airmax-sc-m"
+      />
+      <h4>Zapatillas Nike Airmax $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas converse mujer">
+      <img
+        src="./img2/zapatilla-chuk-taylor-converse-m.jfif"
+        alt="zapatilla-chuk-taylor-converse-m"
+      />
+      <h4>Zapatillas Converse Mujer $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas fila mujer">
+      <img
+        src="./img2/zapatilla-fila-racer-advantage-m.jfif"
+        alt="zapatilla-fila-racer-advantage-m"
+      />
+      <h4>Zapatillas Fila Racer Advantage $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas fila hombre">
+      <img
+        src="./img2/zapatilla-fila-ranger-advance-h.jfif"
+        alt="zapatilla-fila-ranger-advance-h"
+      />
+      <h4>Zapatillas Fila Racer Advantage $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas nike hombre">
+      <img
+        src="./img2/zapatilla-nike-air-max.jfif"
+        alt="zapatilla-nike-air-max"
+      />
+      <h4>Zapatillas Nike Airmax $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas nike hombre">
+      <img
+        src="./img2/zapatilla-nike-airforce.jfif"
+        alt="zapatilla-nike-airforce"
+      />
+      <h4>Zapatillas Nike Airforce $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra zapatillas puma hombre">
+      <img
+        src="./img2/zapatilla-puma-caven.jfif"
+        alt="zapatilla-puma-caven"
+      />
+      <h4>Zapatillas Puma Caven $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra shorts converse mujer">
+      <img src="./img2/short-converse-m.jfif" alt="short-converse-m" />
+      <h4>Short Converse Mujer $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra shorts nike hombre">
+      <img
+        src="./img2/short-nike-cahllenger-m.jfif"
+        alt="short-nike-cahllenger-m"
+      />
+      <h4>Short Nike Challenger $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra shorts adidas hombre">
+      <img src="./img2/short-river.jfif" alt="short-river" />
+      <h4>Short River $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camperas adidas hombre">
+      <img src="./img2/campera-adidas-boca.jpg" alt="campera-adidas-boca" />
+      <h4>Campera Boca $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camperas puma mujer">
+      <img
+        src="./img2/campera-independiente-m.jfif"
+        alt="campera-independiente-m"
+      />
+      <h4>Campera Independiente $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camisetas adidas hombre">
+      <img src="img2/camiseta-arg-hombre.jfif" alt="camiseta-arg-hombre" />
+      <h4>Camiseta Argentina Hombre $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camisetas adidas nino">
+      <img src="img2/camiseta-argentina.jfif" alt="camiseta-argentina" />
+      <h4>Camiseta Argentina Niño $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camisetas hombre peak">
+      <img src="img2/camiseta-lanus.jpg" alt="camiseta-lanus" />
+      <h4>Camiseta Lanus $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camisetas hombre kappa">
+      <img src="img2/camiseta-racing-h.jfif" alt="camiseta-racing-h" />
+      <h4>Camiseta Racing $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra camisetas adidas hombre">
+      <img src="img2/camiseta-river.jfif" alt="camiseta-river" />
+      <h4>Camiseta River $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra botines adidas hombre">
+      <img
+        src="./img2/botines-de-futbol-adidas-sense.jpg"
+        alt="botines-de-futbol-adidas-sense"
+      />
+      <h4>Botines Adidas Sense $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra botines nike hombre">
+      <img src="./img2/botines-nike-h.jpg" alt="botines-nike-h" />
+      <h4>Botines Nike $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra botines nike nino">
+      <img src="./img2/botines-nike-n.jpg" alt="botines-nike-n" />
+      <h4>Botines Nike Niño $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra ojotas adidas hombre">
+      <img src="./img2/ojota-adidas.jfif" alt="ojota-adidas" />
+      <h4>Ojotas Adidas $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+    <div class="contenedor-compra ojotas mujer puma">
+      <img src="./img2/ojota-puma-m.jpg" alt="ojota-puma-m" />
+      <h4>Ojotas Puma $$$$</h4>
+      <button class="btn btn-primary btn-compra" t0ype="submit">
+        Comprar
+      </button>
+    </div>
+      <div class="contenedor-compra buzo adidas hombre">
+        <img src="./img2/buzo-adidas-h.jpg" alt="buzo-adidas-h" />
+        <h4>Buzo Adidas Hombre $$$$</h4>
+        <button class="btn btn-primary btn-compra" t0ype="submit">
+          Comprar
+        </button>
+      </div>
+      <div class="contenedor-compra buzo">
+        <img src="./img2/buzo-adidas-m.jpg" alt="buzo-adidas-m" />
+        <h4>Buzo Adidas Mujer $$$$</h4>
+        <button class="btn btn-primary btn-compra" t0ype="submit">
+          Comprar
+        </button>
+      </div>
+      <div class="contenedor-compra buzo">
+        <img src="./img2/buzo-adidas-n.jpg" alt="buzo-adidas-n" />
+        <h4>Buzo adidas niño $$$$</h4>
+        <button class="btn btn-primary btn-compra" t0ype="submit">
+          Comprar
+        </button>
+      </div>
+      <div class="contenedor-compra buzo">
+        <img src="./img2/buzo-converse-m.jfif" alt="buzo-converse-h" />
+        <h4>Buzo Converse Hombre $$$$</h4>
+        <button class="btn btn-primary btn-compra" t0ype="submit">
+          Comprar
+        </button>
+      </div>
+      <div class="contenedor-compra buzo nike hombre">
+        <img src="./img2/buzo-nike-h.jpg" alt="buzo-nike-h" />
+        <h4>Buzo Nike Hombre $$$$</h4>
+        <button class="btn btn-primary btn-compra" t0ype="submit">
+          Comprar
+        </button>
+      </div>
+      <div class="contenedor-compra buzo nike mujer">
+        <img src="./img2/buzo-nike-m.jpg" alt="buzo-nike-m" />
+        <h4>Buzo Nike Mujer $$$$</h4>
+        <button class="btn btn-primary btn-compra" t0ype="submit">
+          Comprar
+        </button>
+      </div>
     </div>
   </div>
-</main>
-    <section>
-      <div class="products">
-      <div class="products-text">
-        <h2>Encontra lo que buscas al mejor precio</h2>
-        <ul>
-          <li><a class="link-primary text-dark" href="hombre">Hombre</a></li>
-          <li><a class="link-primary text-dark" href="mujer">Mujer</a></li>
-          <li><a class="link-primary text-dark" href="niños">Niños</a></li>
-          <li><a class="link-primary text-dark" href="Talle">Talle</a></li>
-          <li><a class="link-primary text-dark" href="marca">Marca</a></li>
-          <li><a class="link-primary text-dark" href="precio">Precio</a></li>
-          <li><a class="link-primary text-dark" href="calzado">Calzado</a></li>
-          <li><a class="link-primary text-dark" href="remeras">Remeras</a></li>
-          <li><a class="link-primary text-dark" href="camperas">Camperas</a></li>
-        </ul>
-      </div>
-      <div class="products-img">
-      <div class="products-img1">
-        <img
-          src="./img/botines-adidas.jpg"
-          alt="botines adidas"
-        />
-        <p>Botines Adidas Uniforia $35000</p>
-      </div>
-      <div class="products-img1" >
-        <img
-          src="./img/botnines-nike.jpg"
-          alt="botines nike"
-        />
-        <p>Botines Nike $49999</p>
-      </div>
-      <div class="products-img1">
-        <img
-          src="./img/campera-kappa.jpg"
-          alt="campera kappa"
-        />
-        <p>Campera Kappa 2022 $23000</p>
-      </div>
-      <div class="products-img1">
-        <img
-          src="./img/campera-nike.jpg"
-          alt="campera nike"
-        />
-        <p>Campera Nike Air $36000</p>
-      </div>
-      <div class="products-img1">
-        <img
-          src="./img/pantalon new balance.jpg"
-          alt="pantalon new balance"
-        />
-        <p>Pantalon New Balance $16000</p>
-      </div>
-      <div class="products-img1">
-        <img
-          src="./img/new balance 1300 jp.jpg"
-          alt="new balance 1300 jp"
-        />
-        <p>Zapatillas New Balance $25000</p>
-      </div class="products-img1">
-      <div class="products-img1">
-        <img
-          src="./img/kappa-detail in white.jpg"
-          alt="kappa white"
-        />
-        <p>Remera Kappa White $7999</p>
-      </div>
-      <div class="products-img1">
-        <img
-          src="./img/nike jordan 1 mid.webp"
-          alt="jordan mid 1"
-        />
-        <p>Jordan Air Mid 1 $42000</p>
-      </div>
-      <div class="products-img1">
-        <img
-          src="./img/pantalon adidas gran logo.jpg"
-          alt="pantalon adidas"
-        />
-        <p>Pantalon Adidas Gran Logo $14000</p>
-      </div>
-      </div>
-      </div>
-      </div>
-    </section>
+</div>
     <!-- Fin de productos -->
 
     <!-- Inicio newsletter -->
