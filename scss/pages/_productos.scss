@@ -47,44 +47,6 @@ input[type="radio"] {
   flex-wrap: wrap;
   margin-top: 10px;
   justify-content: center;
-<<<<<<< HEAD
-  font-size: 20px;
-  &-text {
-    text-decoration: none;
-    color: #203586;
-    padding: 10px;
-  }
-  &-text ul {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
-    padding: 0px;
-    font-size: 20px;
-    color: transparent;
-  }
-  &-text ul li a {
-    text-decoration: none;
-    color: black;
-  }
-  &-img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-  &-img1 {
-    display: flex;
-    flex-direction: row;
-  }
-  &-img img {
-    width: 100px;
-    height: 100px;
-  }
-  .messi-arg{
-    display: none !important;
-  }
-=======
 }
 .productos_main label {
   padding: 8px 8px;
@@ -180,7 +142,6 @@ input[type="radio"] {
 .contenedor-compra img {
   width: 250px;
   height: 250px;
->>>>>>> rama
 }
 @media (min-width: 992px) {
   .productos_main {
