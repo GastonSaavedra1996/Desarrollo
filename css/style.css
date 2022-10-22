@@ -8559,7 +8559,7 @@ textarea.form-control-lg {
 
 .menu-productos-nav > li > a {
   display: block;
-  padding: 8px 15px;
+  padding: 15px 20px;
   text-decoration: none;
   color: white; }
 
@@ -8571,13 +8571,28 @@ textarea.form-control-lg {
   flex-direction: row;
   flex-wrap: wrap; }
 
+.productos_main label {
+  margin-right: 6px; }
+
+input[type="radio"] {
+  display: none; }
+
 .productos_main {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10px;
   justify-content: center; }
 
 .productos_main label {
-  margin-right: 6px; }
+  padding: 8px 8px;
+  margin: 8px;
+  font-size: 10px;
+  background-color: #203586;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer; }
 
 #remeras:checked ~ #imagenes .camperas,
 #remeras:checked ~ #imagenes .zapatillas,
@@ -8666,49 +8681,39 @@ textarea.form-control-lg {
   height: 250px; }
 
 @media (min-width: 992px) {
-  .products {
-    background-color: aliceblue;
+  .productos_main {
+    width: 100%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    font-size: 20px; }
-    .products-text {
-      display: flex;
-      flex-direction: column;
-      padding: 30px; }
-    .products-text ul {
-      display: flex;
-      flex-direction: column;
-      padding: 40px;
-      font-size: 30px; }
-    .products-text ul li a {
-      text-decoration: none;
-      color: black; }
-  .products-img {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center; }
-  .products-img1 {
-    display: flex;
-    flex-direction: column;
-    padding: 15px; }
-  .products-img img {
-    width: 200px;
-    height: 200px; }
-  .messi-text {
-    font-size: 8px;
-    padding-top: 90%;
-    padding-left: 0%;
-    width: 100vh; }
-  .messi-sup {
-    width: 50%;
-    height: auto; }
-  .messi--arg {
-    width: 50%;
-    display: inline; }
-  .main-productos {
-    height: 100vh; } }
+    margin-top: 20px; }
+  .productos_main label {
+    padding: 6px 20px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #203586;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; }
+  .productos_main label:hover {
+    opacity: 0.8; }
+  .contenedor-producto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+  .contenedor-producto .contenedor-compra {
+    background: #fff;
+    width: 350px;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 20px; }
+  .contenedor-producto .contenedor-compra .ctn-img {
+    width: 100%; }
+  .contenedor-producto .contenedor-compra .ctn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; } }
 
 .main-trabaja {
   padding-top: 50px;
