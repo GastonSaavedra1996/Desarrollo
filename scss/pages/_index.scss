@@ -92,72 +92,58 @@ color: white;
   /* MENU PRINCIPAL */
   .productos_ {
     display: flex;
-    flex-direction: column;
-    width: 100vw;
-    &_top {
+    width: 100%;
+    &top {
       background-color: aliceblue;
       color: #203586;
+      width: 50%;
     }
-    &_title {
-      font-size: 60px;
-      padding: 50px 50px 50px 50px;
-      margin: 50px;
+    &title {
+      font-size: 30px;
     }
-    &_text {
+    &text {
       font-style: italic;
       padding: 20px;
-      font-size: 40px;
+      font-size: 20px;
     }
-    &_bot {
+    &bot {
+      background-color: aliceblue;
       font-size: 25px;
+      display: flex;
+      width: 350px;
     }
-    &_bot img {
+    &bot img {
       width: 350px;
       height: 350px;
     }
   }
   /* SECCION NOSOTROS */
-  .card-title {
-    font-size: 40px;
-  }
-  .nosotros-bot {
+  .seleccion-ropa{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: grey;
-    font-size: 40px;
-    padding: 50px 150px 50px 50px;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+  
   }
-  .nosotros1-title {
-    font-size: 60px;
-  }
-  .nosotros1-paragraph {
-    font-style: italic;
-  }
-  .nosotros2 {
-    font-size: 20px;
-    padding: 50px 150px 50px 50px;
-    background-color: #f99d35;
-    color: aliceblue;
+  .contenedor-ropa{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    &-title {
-      font-size: 60px;
-    }
+    justify-content: space-around;
+    padding: 20px;
   }
-  .nosotros3 {
-    background-color: #73fa66;
-    color: black;
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    &-title {
-      font-size: 60px;
-    }
-    &-paragraph {
-      font-size: 40px;
-    }
+  .contenedor-ropa-mujer{
+    border-radius: 5px;
+    border: black solid 2px;
+    padding: 8px;
+  }
+  .contenedor-ropa-hombre{
+    border-radius: 5px;
+    border: black solid 2px;
+    padding: 8px;
+  }
+  .contenedor-ropa-nino{
+    border-radius: 5px;
+    border: black solid 2px;
+    padding: 8px;
   }
   .newlester {
     background-color: #203586;
