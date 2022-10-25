@@ -8832,101 +8832,58 @@ input[type="radio"] {
 .nosotros {
   display: flex;
   flex-direction: column;
-  background-color: lightblue;
   padding-top: 20px;
-  width: 100%; }
-
-.nosotros img {
-  width: 275px;
-  height: 275px; }
+  width: 100%;
+  background-color: #203586; }
 
 .nosotros-left {
-  background-color: antiquewhite;
+  background-color: #203586;
+  color: #fff;
   display: flex;
-  font-size: 20px;
-  flex-direction: column; }
+  flex-direction: column;
+  font-size: 10px;
+  text-align: center; }
 
 .nosotros-left-text h2, .nosotros-left-text .h2 {
-  color: gray; }
-
-.nosotros-left-text p {
-  color: gray; }
-
-.services-right {
-  font-size: 20px;
-  color: #203586;
-  text-decoration-line: underline; }
-
-.services-right ul {
-  color: #f9e79f; }
-
-.services-right ul a {
-  color: #f9e79f;
-  text-decoration: none; }
+  font-size: 30px; }
 
 .vegano {
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: #e59866;
-  font-size: 30px;
-  text-align: center;
-  position: relative; }
-
-.algodon-organico {
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: #b4b8bb;
-  font-size: 30px;
-  height: auto; }
+  color: #e59866; }
 
 .tinte-sostenible {
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: purple;
-  font-size: 30px; }
+  color: purple; }
 
 .contenido-reciclado {
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: #09a2b8;
-  font-size: 30px; }
+  color: #09a2b8; }
+
+.container-reciclado {
+  display: flex; }
 
 .features {
   display: flex;
   flex-direction: column; }
 
+.features-titulo {
+  background: linear-gradient(180deg, #203586 0%, #b1b8d5 29%, white 100%);
+  color: #203586;
+  padding: 50px; }
+
+.features-titulo p {
+  color: black; }
+
+.features1 {
+  display: none; }
+
+/* FIND E NOSOTROS */
 @media (min-width: 992px) {
-  .nosotros {
-    display: flex;
-    background-color: lightblue;
-    width: 100%; }
-    .nosotros img {
-      height: auto;
-      width: auto; }
-  .nosotros-left {
-    background-color: antiquewhite;
-    display: flex;
-    font-size: 20px;
-    flex-direction: row-reverse; }
-    .nosotros-left-text h2, .nosotros-left-text .h2 {
-      color: gray; }
-    .nosotros-left-text p {
-      color: gray; }
-  .services-right {
-    font-size: 30px;
-    color: #203586;
-    text-decoration-line: underline; }
-    .services-right ul {
-      color: #f9e79f; }
-    .services-right ul a {
-      color: #f9e79f;
-      text-decoration: none; } }
+  .vegano {
+    border: #e59866 solid 3px; }
+  .algodon-organico {
+    border: black solid 3px; }
+  .tinte-sostenible {
+    border: purple solid 3px; }
+  .contenido-reciclado {
+    border: #09a2b8 solid 3px; } }
 
 .contact-main {
   padding-top: 50px;
