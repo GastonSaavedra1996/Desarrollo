@@ -8903,7 +8903,17 @@ input[type="radio"] {
 
 @media (max-width: 992px) and (min-width: 768px) {
   .features1 {
-    display: inline; } }
+    display: inline; }
+  .vegano {
+    border: #e59866 solid 3px; }
+  .algodon-organico {
+    border: black solid 3px; }
+  .tinte-sostenible {
+    border: purple solid 3px; }
+  .contenido-reciclado {
+    border: #09a2b8 solid 3px; }
+  .nosotros-left {
+    font-size: 16px; } }
 
 /* FIND E NOSOTROS */
 @media (min-width: 992px) {
