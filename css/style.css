@@ -8388,6 +8388,10 @@ textarea.form-control-lg {
 .navbar-nav .nav-link.active {
   color: white; }
 
+.main-title {
+  display: block;
+  padding: 0%; }
+
 .productos_top {
   background-color: aliceblue;
   color: #203586;
