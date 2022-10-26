@@ -3,10 +3,9 @@
   flex-direction: column;
   padding-top: 20px;
   width: 100%;
-  background-color: #203586;
 }
 .nosotros-left {
-  background-color: #203586;
+  background: linear-gradient(0deg, rgba(32,53,134,1) 73%, rgba(175,183,212,1) 98%, rgba(255,255,255,1) 100%);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -43,6 +42,12 @@ color: #09a2b8;
 }
 .features1{
   display: none;
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+  .features1{
+    display: inline;
+  }
 }
 /* FIND E NOSOTROS */
 @media (min-width: 992px) {

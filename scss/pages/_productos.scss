@@ -143,6 +143,48 @@ input[type="radio"] {
   width: 250px;
   height: 250px;
 }
+@media (max-width: 992px) and (min-width: 768px) {
+  .productos_main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .productos_main label {
+    padding: 6px 20px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #203586;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .productos_main label:hover {
+    opacity: 0.8;
+  }
+  .contenedor-producto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contenedor-producto .contenedor-compra {
+    background: #fff;
+    width: 350px;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+  .contenedor-producto .contenedor-compra .ctn-img {
+    width: 100%;
+  }
+  .contenedor-producto .contenedor-compra .ctn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 @media (min-width: 992px) {
   .productos_main {
     width: 100%;

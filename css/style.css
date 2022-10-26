@@ -8419,46 +8419,72 @@ textarea.form-control-lg {
 .carousel-control-next-icon {
   background-color: black; }
 
-.nosotros-bot {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 30px;
-  background-image: linear-gradient(180deg, rgba(255, 255, 230, 0.55611) 78%, #f99d35 86%);
-  color: grey; }
-  .nosotros-bot img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px; }
-
-.nosotros1-title {
-  font-size: 30px; }
-
-.nosotros2 {
-  background-image: linear-gradient(180deg, #f99d35 78%, rgba(115, 250, 102, 0.586035) 86%);
-  color: white;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center; }
-
-.nosotros3 {
-  background-color: #73fa66;
-  color: #203586;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 30px; }
-  .nosotros3-title {
-    font-size: 30px; }
-  .nosotros3-paragraph {
-    font-size: 16px; }
-  .nosotros3 img {
-    width: 250px;
-    height: 250px; }
-
 .contenedor-ropa {
   text-align: center; }
+
+.contenedor-ropa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px; }
+
+.contenedor-ropa-mujer {
+  border-radius: 5px;
+  border: black solid 2px;
+  padding: 8px;
+  margin: 20px 0; }
+
+.contenedor-ropa-hombre {
+  border-radius: 5px;
+  border: black solid 2px;
+  padding: 8px;
+  margin: 20px 0; }
+
+.contenedor-ropa-nino {
+  border-radius: 5px;
+  border: black solid 2px;
+  padding: 8px;
+  margin: 20px 0; }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .productos_ {
+    display: flex;
+    width: 100%; }
+    .productos_top {
+      background-color: aliceblue;
+      color: #203586;
+      width: 50%; }
+    .productos_title {
+      font-size: 30px; }
+    .productos_text {
+      font-style: italic;
+      padding: 20px;
+      font-size: 20px; }
+    .productos_bot {
+      background-color: aliceblue;
+      font-size: 25px;
+      display: flex;
+      width: 350px; }
+    .productos_bot img {
+      width: 350px;
+      height: 350px; }
+  .contenedor-ropa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px; }
+  .contenedor-ropa-mujer {
+    border-radius: 5px;
+    border: black solid 2px;
+    padding: 8px; }
+  .contenedor-ropa-hombre {
+    border-radius: 5px;
+    border: black solid 2px;
+    padding: 8px; }
+  .contenedor-ropa-nino {
+    border-radius: 5px;
+    border: black solid 2px;
+    padding: 8px; } }
 
 @media (min-width: 992px) {
   /* MENU PRINCIPAL */
@@ -8484,13 +8510,9 @@ textarea.form-control-lg {
       width: 350px;
       height: 350px; }
   /* SECCION NOSOTROS */
-  .seleccion-ropa {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 30px; }
   .contenedor-ropa {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     padding: 20px; }
   .contenedor-ropa-mujer {
@@ -8504,28 +8526,7 @@ textarea.form-control-lg {
   .contenedor-ropa-nino {
     border-radius: 5px;
     border: black solid 2px;
-    padding: 8px; }
-  .newlester {
-    background-color: #203586;
-    padding: 10px; }
-    .newlesterh2 {
-      color: aliceblue; }
-  .input-group {
-    font-size: 40px;
-    padding: 60px; }
-  .btn btn-outline-secondary {
-    background-color: white;
-    color: white; }
-  /* Pie de pagina */
-  .correo {
-    width: 400px;
-    height: 40px;
-    font-size: 30px;
-    margin: 100px; }
-  .enviar {
-    width: 100px;
-    height: 40px;
-    font-size: 30px; } }
+    padding: 8px; } }
 
 .menu-productos {
   background-color: #203586;
@@ -8671,6 +8672,41 @@ input[type="radio"] {
 .contenedor-compra img {
   width: 250px;
   height: 250px; }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .productos_main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; }
+  .productos_main label {
+    padding: 6px 20px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #203586;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; }
+  .productos_main label:hover {
+    opacity: 0.8; }
+  .contenedor-producto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  .contenedor-producto .contenedor-compra {
+    background: #fff;
+    width: 350px;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 20px; }
+  .contenedor-producto .contenedor-compra .ctn-img {
+    width: 100%; }
+  .contenedor-producto .contenedor-compra .ctn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; } }
 
 @media (min-width: 992px) {
   .productos_main {
@@ -8825,11 +8861,10 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  width: 100%;
-  background-color: #203586; }
+  width: 100%; }
 
 .nosotros-left {
-  background-color: #203586;
+  background: linear-gradient(0deg, #203586 73%, #afb7d4 98%, white 100%);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -8865,6 +8900,10 @@ input[type="radio"] {
 
 .features1 {
   display: none; }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .features1 {
+    display: inline; } }
 
 /* FIND E NOSOTROS */
 @media (min-width: 992px) {
@@ -8938,6 +8977,27 @@ input[type="radio"] {
 
 .contact-text textarea {
   width: 300px; }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-main {
+    font-size: 30px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .formulario {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px; }
+  .contact-right {
+    padding: 20px; }
+  .contact-text textarea {
+    width: 500px;
+    height: 200px; }
+  .contact-text-title {
+    margin: 40px 0px; }
+  .enviar {
+    width: 100px; } }
 
 @media (min-width: 992px) {
   .contact-main {
