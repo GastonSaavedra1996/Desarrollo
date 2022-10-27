@@ -8862,13 +8862,14 @@ input[type="radio"] {
     background-color: white; } }
 
 .nosotros {
+  background-color: #203586;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   width: 100%; }
 
 .nosotros-left {
-  background: linear-gradient(0deg, #203586 73%, #afb7d4 98%, white 100%);
+  background-color: #203586;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -8876,7 +8877,8 @@ input[type="radio"] {
   text-align: center; }
 
 .nosotros-left-text h2, .nosotros-left-text .h2 {
-  font-size: 30px; }
+  font-size: 30px;
+  padding: 20px; }
 
 .vegano {
   color: #e59866; }

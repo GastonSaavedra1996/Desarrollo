@@ -1,11 +1,12 @@
 .nosotros {
+  background-color: #203586;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   width: 100%;
 }
 .nosotros-left {
-  background: linear-gradient(0deg, rgba(32,53,134,1) 73%, rgba(175,183,212,1) 98%, rgba(255,255,255,1) 100%);
+  background-color: #203586;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -14,6 +15,7 @@
 }
 .nosotros-left-text h2{
   font-size: 30px;
+  padding: 20px;
 }
 .vegano {
 color: #e59866;
